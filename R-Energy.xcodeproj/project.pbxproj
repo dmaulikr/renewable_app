@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* NLApportaAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* NLApportaAppDelegate.mm */; };
+		1D60589B0D05DD56006BFB54 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.mm */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.mm */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		FE1C854B1605872E001B95AB /* MenuViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1C85491605872E001B95AB /* MenuViewController.mm */; };
+		FE1C854C1605872E001B95AB /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1C854A1605872E001B95AB /* MenuViewController.xib */; };
+		FE1C855816058E3A001B95AB /* Boton1ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1C855616058E3A001B95AB /* Boton1ViewController.mm */; };
+		FE1C855916058E3A001B95AB /* Boton1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1C855716058E3A001B95AB /* Boton1ViewController.xib */; };
+		FE1C855D16058E4D001B95AB /* Boton2ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1C855B16058E4D001B95AB /* Boton2ViewController.mm */; };
+		FE1C855E16058E4D001B95AB /* Boton2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1C855C16058E4D001B95AB /* Boton2ViewController.xib */; };
+		FE1C856216058E5F001B95AB /* Boton3ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1C856016058E5F001B95AB /* Boton3ViewController.mm */; };
+		FE1C856316058E5F001B95AB /* Boton3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1C856116058E5F001B95AB /* Boton3ViewController.xib */; };
+		FE1C856716058E6F001B95AB /* Boton4ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1C856516058E6F001B95AB /* Boton4ViewController.mm */; };
+		FE1C856816058E6F001B95AB /* Boton4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1C856616058E6F001B95AB /* Boton4ViewController.xib */; };
+		FE1C856C16058E7E001B95AB /* Boton5ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1C856A16058E7E001B95AB /* Boton5ViewController.mm */; };
+		FE1C856D16058E7E001B95AB /* Boton5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1C856B16058E7E001B95AB /* Boton5ViewController.xib */; };
+		FE1C857116058E91001B95AB /* Boton6ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FE1C856F16058E91001B95AB /* Boton6ViewController.mm */; };
+		FE1C857216058E91001B95AB /* Boton6ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE1C857016058E91001B95AB /* Boton6ViewController.xib */; };
+		FE9B306A1605A431000E8151 /* Leon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9B30681605A431000E8151 /* Leon.png */; };
+		FE9B306B1605A431000E8151 /* NuevoLeon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9B30691605A431000E8151 /* NuevoLeon.png */; };
+		FE9B306D1605A477000E8151 /* Escudo de Nuevo Leon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9B306C1605A476000E8151 /* Escudo de Nuevo Leon.png */; };
+		FEE13032160F93F700F84879 /* ExplicaRealidad.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEE13030160F93F700F84879 /* ExplicaRealidad.mm */; };
+		FEE13033160F93F700F84879 /* ExplicaRealidad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE13031160F93F700F84879 /* ExplicaRealidad.xib */; };
+		FEE1303F160FB1B000F84879 /* IMG_0957.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FEE1303E160FB1B000F84879 /* IMG_0957.PNG */; };
+		FEE13041160FB96F00F84879 /* Explicacion_layar.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE13040160FB96F00F84879 /* Explicacion_layar.png */; };
+		FEE13043160FC0EA00F84879 /* fondo-abstracto.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE13042160FC0EA00F84879 /* fondo-abstracto.png */; };
+		FEE1304B160FC64500F84879 /* BotonTurismo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE13049160FC64500F84879 /* BotonTurismo1ViewController.m */; };
+		FEE1304C160FC64500F84879 /* BotonTurismo1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE1304A160FC64500F84879 /* BotonTurismo1ViewController.xib */; };
+		FEE13050160FC65F00F84879 /* BotonTurismo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE1304E160FC65F00F84879 /* BotonTurismo2ViewController.m */; };
+		FEE13051160FC65F00F84879 /* BotonTurismo2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE1304F160FC65F00F84879 /* BotonTurismo2ViewController.xib */; };
+		FEE13055160FC68200F84879 /* BotonTurismo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE13053160FC68200F84879 /* BotonTurismo3ViewController.m */; };
+		FEE13056160FC68200F84879 /* BotonTurismo3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE13054160FC68200F84879 /* BotonTurismo3ViewController.xib */; };
+		FEE1305A160FC69F00F84879 /* BotonTurismo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE13058160FC69F00F84879 /* BotonTurismo4ViewController.m */; };
+		FEE1305B160FC69F00F84879 /* BotonTurismo4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE13059160FC69F00F84879 /* BotonTurismo4ViewController.xib */; };
+		FEE219BB160ECB5300151E39 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219BA160ECB5200151E39 /* AVFoundation.framework */; };
+		FEE219BD160ECB5F00151E39 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219BC160ECB5F00151E39 /* AudioToolbox.framework */; };
+		FEE219CB160ECC3200151E39 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219BE160ECC3100151E39 /* CFNetwork.framework */; };
+		FEE219CC160ECC3200151E39 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219BF160ECC3100151E39 /* CoreData.framework */; };
+		FEE219CD160ECC3200151E39 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219C0160ECC3100151E39 /* CoreLocation.framework */; };
+		FEE219CE160ECC3200151E39 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219C1160ECC3100151E39 /* CoreMedia.framework */; };
+		FEE219CF160ECC3200151E39 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219C2160ECC3100151E39 /* CoreMotion.framework */; };
+		FEE219D0160ECC3200151E39 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219C3160ECC3100151E39 /* CoreTelephony.framework */; };
+		FEE219D1160ECC3200151E39 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219C4160ECC3100151E39 /* CoreVideo.framework */; };
+		FEE219D2160ECC3200151E39 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219C5160ECC3200151E39 /* MapKit.framework */; };
+		FEE219D3160ECC3200151E39 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219C6160ECC3200151E39 /* MediaPlayer.framework */; };
+		FEE219D4160ECC3200151E39 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219C7160ECC3200151E39 /* OpenGLES.framework */; };
+		FEE219D5160ECC3200151E39 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219C8160ECC3200151E39 /* QuartzCore.framework */; };
+		FEE219D6160ECC3200151E39 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219C9160ECC3200151E39 /* Security.framework */; };
+		FEE219D7160ECC3200151E39 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE219CA160ECC3200151E39 /* SystemConfiguration.framework */; };
+		FEE219D9160ECD9400151E39 /* PlayerLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEE219D8160ECD9400151E39 /* PlayerLocalization.bundle */; };
+		FEE2D25917233BED0075CF24 /* Energy_explorer_1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FEE2D25817233BED0075CF24 /* Energy_explorer_1.PNG */; };
+		FEE2D25B172346790075CF24 /* Energia2_57.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE2D25A172346780075CF24 /* Energia2_57.png */; };
+		FEE2D25D1723491E0075CF24 /* Energia2_114.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE2D25C1723491E0075CF24 /* Energia2_114.png */; };
+		FEE2D25F172349340075CF24 /* Energia_114.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE2D25E172349340075CF24 /* Energia_114.png */; };
+		FEE2D26117234E370075CF24 /* IMG_1017  (alt).png in Resources */ = {isa = PBXBuildFile; fileRef = FEE2D26017234E370075CF24 /* IMG_1017  (alt).png */; };
+		FEE2D263172366280075CF24 /* head_nrel.png in Resources */ = {isa = PBXBuildFile; fileRef = FEE2D262172366280075CF24 /* head_nrel.png */; };
+		FEE2D265172367F50075CF24 /* Eolica.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FEE2D264172367F40075CF24 /* Eolica.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* NLApportaAppDelegate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NLApportaAppDelegate.hpp; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* NLApportaAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NLApportaAppDelegate.mm; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* R-Energy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R-Energy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* R-Energy_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "R-Energy_Prefix.pch"; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RootViewController.hpp; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = ../RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* R-Energy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "R-Energy-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FE1C85481605872E001B95AB /* MenuViewController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuViewController.hpp; sourceTree = "<group>"; };
+		FE1C85491605872E001B95AB /* MenuViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MenuViewController.mm; sourceTree = "<group>"; };
+		FE1C854A1605872E001B95AB /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		FE1C855516058E3A001B95AB /* Boton1ViewController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Boton1ViewController.hpp; sourceTree = "<group>"; };
+		FE1C855616058E3A001B95AB /* Boton1ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Boton1ViewController.mm; sourceTree = "<group>"; };
+		FE1C855716058E3A001B95AB /* Boton1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Boton1ViewController.xib; sourceTree = "<group>"; };
+		FE1C855A16058E4D001B95AB /* Boton2ViewController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Boton2ViewController.hpp; sourceTree = "<group>"; };
+		FE1C855B16058E4D001B95AB /* Boton2ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Boton2ViewController.mm; sourceTree = "<group>"; };
+		FE1C855C16058E4D001B95AB /* Boton2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Boton2ViewController.xib; sourceTree = "<group>"; };
+		FE1C855F16058E5F001B95AB /* Boton3ViewController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Boton3ViewController.hpp; sourceTree = "<group>"; };
+		FE1C856016058E5F001B95AB /* Boton3ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Boton3ViewController.mm; sourceTree = "<group>"; };
+		FE1C856116058E5F001B95AB /* Boton3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Boton3ViewController.xib; sourceTree = "<group>"; };
+		FE1C856416058E6F001B95AB /* Boton4ViewController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Boton4ViewController.hpp; sourceTree = "<group>"; };
+		FE1C856516058E6F001B95AB /* Boton4ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Boton4ViewController.mm; sourceTree = "<group>"; };
+		FE1C856616058E6F001B95AB /* Boton4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Boton4ViewController.xib; sourceTree = "<group>"; };
+		FE1C856916058E7E001B95AB /* Boton5ViewController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Boton5ViewController.hpp; sourceTree = "<group>"; };
+		FE1C856A16058E7E001B95AB /* Boton5ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Boton5ViewController.mm; sourceTree = "<group>"; };
+		FE1C856B16058E7E001B95AB /* Boton5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Boton5ViewController.xib; sourceTree = "<group>"; };
+		FE1C856E16058E91001B95AB /* Boton6ViewController.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Boton6ViewController.hpp; sourceTree = "<group>"; };
+		FE1C856F16058E91001B95AB /* Boton6ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Boton6ViewController.mm; sourceTree = "<group>"; };
+		FE1C857016058E91001B95AB /* Boton6ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Boton6ViewController.xib; sourceTree = "<group>"; };
+		FE9B30681605A431000E8151 /* Leon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Leon.png; path = Classes/Leon.png; sourceTree = "<group>"; };
+		FE9B30691605A431000E8151 /* NuevoLeon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NuevoLeon.png; path = Classes/NuevoLeon.png; sourceTree = "<group>"; };
+		FE9B306C1605A476000E8151 /* Escudo de Nuevo Leon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Escudo de Nuevo Leon.png"; sourceTree = "<group>"; };
+		FEE1302F160F93F700F84879 /* ExplicaRealidad.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ExplicaRealidad.hpp; sourceTree = "<group>"; };
+		FEE13030160F93F700F84879 /* ExplicaRealidad.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ExplicaRealidad.mm; sourceTree = "<group>"; };
+		FEE13031160F93F700F84879 /* ExplicaRealidad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExplicaRealidad.xib; sourceTree = "<group>"; };
+		FEE1303E160FB1B000F84879 /* IMG_0957.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0957.PNG; sourceTree = "<group>"; };
+		FEE13040160FB96F00F84879 /* Explicacion_layar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Explicacion_layar.png; sourceTree = "<group>"; };
+		FEE13042160FC0EA00F84879 /* fondo-abstracto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fondo-abstracto.png"; sourceTree = "<group>"; };
+		FEE13048160FC64500F84879 /* BotonTurismo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BotonTurismo1ViewController.h; sourceTree = "<group>"; };
+		FEE13049160FC64500F84879 /* BotonTurismo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BotonTurismo1ViewController.m; sourceTree = "<group>"; };
+		FEE1304A160FC64500F84879 /* BotonTurismo1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BotonTurismo1ViewController.xib; sourceTree = "<group>"; };
+		FEE1304D160FC65F00F84879 /* BotonTurismo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BotonTurismo2ViewController.h; sourceTree = "<group>"; };
+		FEE1304E160FC65F00F84879 /* BotonTurismo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BotonTurismo2ViewController.m; sourceTree = "<group>"; };
+		FEE1304F160FC65F00F84879 /* BotonTurismo2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BotonTurismo2ViewController.xib; sourceTree = "<group>"; };
+		FEE13052160FC68200F84879 /* BotonTurismo3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BotonTurismo3ViewController.h; sourceTree = "<group>"; };
+		FEE13053160FC68200F84879 /* BotonTurismo3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BotonTurismo3ViewController.m; sourceTree = "<group>"; };
+		FEE13054160FC68200F84879 /* BotonTurismo3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BotonTurismo3ViewController.xib; sourceTree = "<group>"; };
+		FEE13057160FC69F00F84879 /* BotonTurismo4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BotonTurismo4ViewController.h; sourceTree = "<group>"; };
+		FEE13058160FC69F00F84879 /* BotonTurismo4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BotonTurismo4ViewController.m; sourceTree = "<group>"; };
+		FEE13059160FC69F00F84879 /* BotonTurismo4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BotonTurismo4ViewController.xib; sourceTree = "<group>"; };
+		FEE219BA160ECB5200151E39 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FEE219BC160ECB5F00151E39 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FEE219BE160ECC3100151E39 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FEE219BF160ECC3100151E39 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FEE219C0160ECC3100151E39 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FEE219C1160ECC3100151E39 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FEE219C2160ECC3100151E39 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FEE219C3160ECC3100151E39 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FEE219C4160ECC3100151E39 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		FEE219C5160ECC3200151E39 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FEE219C6160ECC3200151E39 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FEE219C7160ECC3200151E39 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FEE219C8160ECC3200151E39 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FEE219C9160ECC3200151E39 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FEE219CA160ECC3200151E39 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FEE219D8160ECD9400151E39 /* PlayerLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PlayerLocalization.bundle; sourceTree = "<group>"; };
+		FEE2D25817233BED0075CF24 /* Energy_explorer_1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Energy_explorer_1.PNG; sourceTree = "<group>"; };
+		FEE2D25A172346780075CF24 /* Energia2_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Energia2_57.png; sourceTree = "<group>"; };
+		FEE2D25C1723491E0075CF24 /* Energia2_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Energia2_114.png; sourceTree = "<group>"; };
+		FEE2D25E172349340075CF24 /* Energia_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Energia_114.png; sourceTree = "<group>"; };
+		FEE2D26017234E370075CF24 /* IMG_1017  (alt).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_1017  (alt).png"; sourceTree = "<group>"; };
+		FEE2D262172366280075CF24 /* head_nrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_nrel.png; sourceTree = "<group>"; };
+		FEE2D264172367F40075CF24 /* Eolica.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eolica.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE219CB160ECC3200151E39 /* CFNetwork.framework in Frameworks */,
+				FEE219CC160ECC3200151E39 /* CoreData.framework in Frameworks */,
+				FEE219CD160ECC3200151E39 /* CoreLocation.framework in Frameworks */,
+				FEE219CE160ECC3200151E39 /* CoreMedia.framework in Frameworks */,
+				FEE219CF160ECC3200151E39 /* CoreMotion.framework in Frameworks */,
+				FEE219D0160ECC3200151E39 /* CoreTelephony.framework in Frameworks */,
+				FEE219D1160ECC3200151E39 /* CoreVideo.framework in Frameworks */,
+				FEE219D2160ECC3200151E39 /* MapKit.framework in Frameworks */,
+				FEE219D3160ECC3200151E39 /* MediaPlayer.framework in Frameworks */,
+				FEE219D4160ECC3200151E39 /* OpenGLES.framework in Frameworks */,
+				FEE219D5160ECC3200151E39 /* QuartzCore.framework in Frameworks */,
+				FEE219D6160ECC3200151E39 /* Security.framework in Frameworks */,
+				FEE219D7160ECC3200151E39 /* SystemConfiguration.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				FEE219BD160ECB5F00151E39 /* AudioToolbox.framework in Frameworks */,
+				FEE219BB160ECB5300151E39 /* AVFoundation.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* NLApportaAppDelegate.hpp */,
+				1D3623250D0F684500981E51 /* NLApportaAppDelegate.mm */,
+				FE45A87116057CA0008BF341 /* RootViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* R-Energy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				FEE2D25E172349340075CF24 /* Energia_114.png */,
+				FEE2D25C1723491E0075CF24 /* Energia2_114.png */,
+				FEE2D25A172346780075CF24 /* Energia2_57.png */,
+				FEE2D25817233BED0075CF24 /* Energy_explorer_1.PNG */,
+				FEE2D264172367F40075CF24 /* Eolica.JPG */,
+				FEE2D262172366280075CF24 /* head_nrel.png */,
+				FEE2D26017234E370075CF24 /* IMG_1017  (alt).png */,
+				FEE13042160FC0EA00F84879 /* fondo-abstracto.png */,
+				FEE1303E160FB1B000F84879 /* IMG_0957.PNG */,
+				FEE13040160FB96F00F84879 /* Explicacion_layar.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FEE219D8160ECD9400151E39 /* PlayerLocalization.bundle */,
+				28A0AAE50D9B0CCF005BE974 /* R-Energy_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.mm */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE9B306C1605A476000E8151 /* Escudo de Nuevo Leon.png */,
+				FE9B30681605A431000E8151 /* Leon.png */,
+				FE9B30691605A431000E8151 /* NuevoLeon.png */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* R-Energy-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE219BE160ECC3100151E39 /* CFNetwork.framework */,
+				FEE219BF160ECC3100151E39 /* CoreData.framework */,
+				FEE219C0160ECC3100151E39 /* CoreLocation.framework */,
+				FEE219C1160ECC3100151E39 /* CoreMedia.framework */,
+				FEE219C2160ECC3100151E39 /* CoreMotion.framework */,
+				FEE219C3160ECC3100151E39 /* CoreTelephony.framework */,
+				FEE219C4160ECC3100151E39 /* CoreVideo.framework */,
+				FEE219C5160ECC3200151E39 /* MapKit.framework */,
+				FEE219C6160ECC3200151E39 /* MediaPlayer.framework */,
+				FEE219C7160ECC3200151E39 /* OpenGLES.framework */,
+				FEE219C8160ECC3200151E39 /* QuartzCore.framework */,
+				FEE219C9160ECC3200151E39 /* Security.framework */,
+				FEE219CA160ECC3200151E39 /* SystemConfiguration.framework */,
+				FEE219BC160ECB5F00151E39 /* AudioToolbox.framework */,
+				FEE219BA160ECB5200151E39 /* AVFoundation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE1C854D16058738001B95AB /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C85481605872E001B95AB /* MenuViewController.hpp */,
+				FE1C85491605872E001B95AB /* MenuViewController.mm */,
+				FE1C854A1605872E001B95AB /* MenuViewController.xib */,
+				FE1C855316058D43001B95AB /* Boton1 */,
+				FE1C855216058D40001B95AB /* Boton2 */,
+				FE1C855116058D3B001B95AB /* Boton3 */,
+				FE1C855016058D32001B95AB /* Boton4 */,
+				FE1C854F16058D2F001B95AB /* Boton5 */,
+				FE1C854E16058D29001B95AB /* Boton6 */,
+				FE1C855416058DAB001B95AB /* Realidad */,
+			);
+			name = MenuViewController;
+			sourceTree = "<group>";
+		};
+		FE1C854E16058D29001B95AB /* Boton6 */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C856E16058E91001B95AB /* Boton6ViewController.hpp */,
+				FE1C856F16058E91001B95AB /* Boton6ViewController.mm */,
+				FE1C857016058E91001B95AB /* Boton6ViewController.xib */,
+			);
+			name = Boton6;
+			sourceTree = "<group>";
+		};
+		FE1C854F16058D2F001B95AB /* Boton5 */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C856916058E7E001B95AB /* Boton5ViewController.hpp */,
+				FE1C856A16058E7E001B95AB /* Boton5ViewController.mm */,
+				FE1C856B16058E7E001B95AB /* Boton5ViewController.xib */,
+				FEE13044160FC56000F84879 /* BotonTurismo1 */,
+				FEE13045160FC59900F84879 /* BotonTurismo2 */,
+				FEE13046160FC59D00F84879 /* BotonTurismo3 */,
+				FEE13047160FC5A200F84879 /* BotonTurismo4 */,
+			);
+			name = Boton5;
+			sourceTree = "<group>";
+		};
+		FE1C855016058D32001B95AB /* Boton4 */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C856416058E6F001B95AB /* Boton4ViewController.hpp */,
+				FE1C856516058E6F001B95AB /* Boton4ViewController.mm */,
+				FE1C856616058E6F001B95AB /* Boton4ViewController.xib */,
+			);
+			name = Boton4;
+			sourceTree = "<group>";
+		};
+		FE1C855116058D3B001B95AB /* Boton3 */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C855F16058E5F001B95AB /* Boton3ViewController.hpp */,
+				FE1C856016058E5F001B95AB /* Boton3ViewController.mm */,
+				FE1C856116058E5F001B95AB /* Boton3ViewController.xib */,
+			);
+			name = Boton3;
+			sourceTree = "<group>";
+		};
+		FE1C855216058D40001B95AB /* Boton2 */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C855A16058E4D001B95AB /* Boton2ViewController.hpp */,
+				FE1C855B16058E4D001B95AB /* Boton2ViewController.mm */,
+				FE1C855C16058E4D001B95AB /* Boton2ViewController.xib */,
+			);
+			name = Boton2;
+			sourceTree = "<group>";
+		};
+		FE1C855316058D43001B95AB /* Boton1 */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C855516058E3A001B95AB /* Boton1ViewController.hpp */,
+				FE1C855616058E3A001B95AB /* Boton1ViewController.mm */,
+				FE1C855716058E3A001B95AB /* Boton1ViewController.xib */,
+			);
+			name = Boton1;
+			sourceTree = "<group>";
+		};
+		FE1C855416058DAB001B95AB /* Realidad */ = {
+			isa = PBXGroup;
+			children = (
+				FEE1302F160F93F700F84879 /* ExplicaRealidad.hpp */,
+				FEE13030160F93F700F84879 /* ExplicaRealidad.mm */,
+				FEE13031160F93F700F84879 /* ExplicaRealidad.xib */,
+			);
+			name = Realidad;
+			sourceTree = "<group>";
+		};
+		FE45A87116057CA0008BF341 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				28C286DF0D94DF7D0034E888 /* RootViewController.hpp */,
+				28C286E00D94DF7D0034E888 /* RootViewController.mm */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				FE1C854D16058738001B95AB /* MenuViewController */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		FEE13044160FC56000F84879 /* BotonTurismo1 */ = {
+			isa = PBXGroup;
+			children = (
+				FEE13048160FC64500F84879 /* BotonTurismo1ViewController.h */,
+				FEE13049160FC64500F84879 /* BotonTurismo1ViewController.m */,
+				FEE1304A160FC64500F84879 /* BotonTurismo1ViewController.xib */,
+			);
+			name = BotonTurismo1;
+			sourceTree = "<group>";
+		};
+		FEE13045160FC59900F84879 /* BotonTurismo2 */ = {
+			isa = PBXGroup;
+			children = (
+				FEE1304D160FC65F00F84879 /* BotonTurismo2ViewController.h */,
+				FEE1304E160FC65F00F84879 /* BotonTurismo2ViewController.m */,
+				FEE1304F160FC65F00F84879 /* BotonTurismo2ViewController.xib */,
+			);
+			name = BotonTurismo2;
+			sourceTree = "<group>";
+		};
+		FEE13046160FC59D00F84879 /* BotonTurismo3 */ = {
+			isa = PBXGroup;
+			children = (
+				FEE13052160FC68200F84879 /* BotonTurismo3ViewController.h */,
+				FEE13053160FC68200F84879 /* BotonTurismo3ViewController.m */,
+				FEE13054160FC68200F84879 /* BotonTurismo3ViewController.xib */,
+			);
+			name = BotonTurismo3;
+			sourceTree = "<group>";
+		};
+		FEE13047160FC5A200F84879 /* BotonTurismo4 */ = {
+			isa = PBXGroup;
+			children = (
+				FEE13057160FC69F00F84879 /* BotonTurismo4ViewController.h */,
+				FEE13058160FC69F00F84879 /* BotonTurismo4ViewController.m */,
+				FEE13059160FC69F00F84879 /* BotonTurismo4ViewController.xib */,
+			);
+			name = BotonTurismo4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* R-Energy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "R-Energy" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "R-Energy";
+			productName = NLApporta;
+			productReference = 1D6058910D05DD3D006BFB54 /* R-Energy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "R-Energy" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* R-Energy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE219D9160ECD9400151E39 /* PlayerLocalization.bundle in Resources */,
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				FE1C854C1605872E001B95AB /* MenuViewController.xib in Resources */,
+				FE1C855916058E3A001B95AB /* Boton1ViewController.xib in Resources */,
+				FE1C855E16058E4D001B95AB /* Boton2ViewController.xib in Resources */,
+				FE1C856316058E5F001B95AB /* Boton3ViewController.xib in Resources */,
+				FE1C856816058E6F001B95AB /* Boton4ViewController.xib in Resources */,
+				FE1C856D16058E7E001B95AB /* Boton5ViewController.xib in Resources */,
+				FE1C857216058E91001B95AB /* Boton6ViewController.xib in Resources */,
+				FE9B306A1605A431000E8151 /* Leon.png in Resources */,
+				FE9B306B1605A431000E8151 /* NuevoLeon.png in Resources */,
+				FE9B306D1605A477000E8151 /* Escudo de Nuevo Leon.png in Resources */,
+				FEE13033160F93F700F84879 /* ExplicaRealidad.xib in Resources */,
+				FEE1303F160FB1B000F84879 /* IMG_0957.PNG in Resources */,
+				FEE13041160FB96F00F84879 /* Explicacion_layar.png in Resources */,
+				FEE13043160FC0EA00F84879 /* fondo-abstracto.png in Resources */,
+				FEE1304C160FC64500F84879 /* BotonTurismo1ViewController.xib in Resources */,
+				FEE13051160FC65F00F84879 /* BotonTurismo2ViewController.xib in Resources */,
+				FEE13056160FC68200F84879 /* BotonTurismo3ViewController.xib in Resources */,
+				FEE1305B160FC69F00F84879 /* BotonTurismo4ViewController.xib in Resources */,
+				FEE2D25917233BED0075CF24 /* Energy_explorer_1.PNG in Resources */,
+				FEE2D25B172346790075CF24 /* Energia2_57.png in Resources */,
+				FEE2D25D1723491E0075CF24 /* Energia2_114.png in Resources */,
+				FEE2D25F172349340075CF24 /* Energia_114.png in Resources */,
+				FEE2D26117234E370075CF24 /* IMG_1017  (alt).png in Resources */,
+				FEE2D263172366280075CF24 /* head_nrel.png in Resources */,
+				FEE2D265172367F50075CF24 /* Eolica.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.mm in Sources */,
+				1D3623260D0F684500981E51 /* NLApportaAppDelegate.mm in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.mm in Sources */,
+				FE1C854B1605872E001B95AB /* MenuViewController.mm in Sources */,
+				FE1C855816058E3A001B95AB /* Boton1ViewController.mm in Sources */,
+				FE1C855D16058E4D001B95AB /* Boton2ViewController.mm in Sources */,
+				FE1C856216058E5F001B95AB /* Boton3ViewController.mm in Sources */,
+				FE1C856716058E6F001B95AB /* Boton4ViewController.mm in Sources */,
+				FE1C856C16058E7E001B95AB /* Boton5ViewController.mm in Sources */,
+				FE1C857116058E91001B95AB /* Boton6ViewController.mm in Sources */,
+				FEE13032160F93F700F84879 /* ExplicaRealidad.mm in Sources */,
+				FEE1304B160FC64500F84879 /* BotonTurismo1ViewController.m in Sources */,
+				FEE13050160FC65F00F84879 /* BotonTurismo2ViewController.m in Sources */,
+				FEE13055160FC68200F84879 /* BotonTurismo3ViewController.m in Sources */,
+				FEE1305A160FC69F00F84879 /* BotonTurismo4ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ROBERTO C CABRIALES GOMEZ";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ROBERTO C CABRIALES GOMEZ";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "R-Energy_Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "R-Energy-Info.plist";
+				PRODUCT_NAME = "R-Energy";
+				PROVISIONING_PROFILE = "7E312449-CE54-4455-A842-756422554694";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7E312449-CE54-4455-A842-756422554694";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ROBERTO C CABRIALES GOMEZ";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ROBERTO C CABRIALES GOMEZ";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "R-Energy_Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "R-Energy-Info.plist";
+				PRODUCT_NAME = "R-Energy";
+				PROVISIONING_PROFILE = "7E312449-CE54-4455-A842-756422554694";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7E312449-CE54-4455-A842-756422554694";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Libraries/LayarPlayer/${BUILD_STYLE}-${PLATFORM_NAME}/include\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/Libraries/LayarPlayer/${BUILD_STYLE}-${PLATFORM_NAME}\"",
+					"\"${PROJECT_DIR}/Libraries/stig-json-framework/build/${BUILD_STYLE}-${PLATFORM_NAME}\"",
+					"\"${PROJECT_DIR}/Libraries/thekarladam-MPOAuth/build/${BUILD_STYLE}-${PLATFORM_NAME}\"",
+				);
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-DEIGEN_DONT_VECTORIZE",
+					"-DEIGEN_NO_DEBUG",
+					"-fblocks",
+					"-ffunction-sections",
+					"-funwind-tables",
+					"-fomit-frame-pointer",
+					"-fno-strict-aliasing",
+					"-finline-limit=64",
+					"-finline-functions",
+					"-fno-math-errno",
+					"-funsafe-math-optimizations",
+					"-fno-trapping-math",
+					"-fno-rounding-math",
+					"-fno-signaling-nans",
+					"-fcx-limited-range",
+					"-frename-registers",
+					"-ftracer",
+				);
+				OTHER_LDFLAGS = (
+					"-lsbjson-ios",
+					"-lMPOAuthMobile",
+					"-ObjC",
+					"-llayarplayer",
+					"-lxml2",
+					"-lz",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos5.0;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Libraries/LayarPlayer/${BUILD_STYLE}-${PLATFORM_NAME}/include\"";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"\"${PROJECT_DIR}/Libraries/LayarPlayer/${BUILD_STYLE}-${PLATFORM_NAME}\"",
+					"\"${PROJECT_DIR}/Libraries/stig-json-framework/build/${BUILD_STYLE}-${PLATFORM_NAME}\"",
+					"\"${PROJECT_DIR}/Libraries/thekarladam-MPOAuth/build/${BUILD_STYLE}-${PLATFORM_NAME}\"",
+				);
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-DEIGEN_DONT_VECTORIZE",
+					"-DEIGEN_NO_DEBUG",
+					"-fblocks",
+					"-ffunction-sections",
+					"-funwind-tables",
+					"-fomit-frame-pointer",
+					"-fno-strict-aliasing",
+					"-finline-limit=64",
+					"-finline-functions",
+					"-fno-math-errno",
+					"-funsafe-math-optimizations",
+					"-fno-trapping-math",
+					"-fno-rounding-math",
+					"-fno-signaling-nans",
+					"-fcx-limited-range",
+					"-frename-registers",
+					"-ftracer",
+				);
+				OTHER_LDFLAGS = (
+					"-lsbjson-ios",
+					"-lMPOAuthMobile",
+					"-ObjC",
+					"-llayarplayer",
+					"-lxml2",
+					"-lz",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos5.0;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "R-Energy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "R-Energy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

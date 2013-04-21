@@ -1,0 +1,132 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* NLApportaAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {600, 286}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 464}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* NLApporta */ = {
+		activeExec = 0;
+		executables = (
+			FEDCCF1216057B7500D812C1 /* NLApporta */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FEDCCF1216057B7500D812C1 /* NLApporta */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* NLApporta */;
+		codeSenseManager = FEDCCF2D16057B8E00D812C1 /* Code sense */;
+		executables = (
+			FEDCCF1216057B7500D812C1 /* NLApporta */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					159,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 369458037;
+			PBXWorkspaceStateSaveDate = 369458037;
+		};
+		perUserProjectItems = {
+			FEDCCF2E16057BB600D812C1 /* PBXTextBookmark */ = FEDCCF2E16057BB600D812C1 /* PBXTextBookmark */;
+			FEDCCF2F16057BB600D812C1 /* PBXBookmark */ = FEDCCF2F16057BB600D812C1 /* PBXBookmark */;
+			FEDCCF3016057BB600D812C1 /* PBXTextBookmark */ = FEDCCF3016057BB600D812C1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FEDCCF2C16057B8E00D812C1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {460, 245}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 360}";
+		};
+	};
+	FEDCCF1216057B7500D812C1 /* NLApporta */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = NLApporta;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FEDCCF2C16057B8E00D812C1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FEDCCF2D16057B8E00D812C1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FEDCCF2E16057BB600D812C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* NLApportaAppDelegate.h */;
+		name = "NLApportaAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	FEDCCF2F16057BB600D812C1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+	};
+	FEDCCF3016057BB600D812C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+}
