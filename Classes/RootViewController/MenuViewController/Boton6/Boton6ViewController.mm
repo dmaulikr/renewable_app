@@ -32,7 +32,7 @@
 
 - (void)viewDidLoad {
     
-    NSString *urlAddress = @"http://www.nl.gob.mx/?P=gobernador";
+    NSString *urlAddress = @"http://spaceappschallenge.org/";
     
     //Create a URL object.
     NSURL *url = [NSURL URLWithString:urlAddress];
