@@ -29,47 +29,6 @@
 #pragma mark - View lifecycle
 
 
-//Realidad aumentada///////
-
-- (IBAction)launchPlayer:(id)sender {
-    NSString *layerName = @"energymexico";  //energymexico
-    
-    NSString *consumerKey = @"123456";
-    
-    NSString *consumerSecret = @"123456";
-    
-    
-    
-    NSArray *oauthKeys = [NSArray arrayWithObjects:LPConsumerKeyParameterKey, LPConsumerSecretParameterKey, nil];
-    
-    NSArray *oauthValues = [NSArray arrayWithObjects:consumerKey, consumerSecret, nil];
-    
-    NSDictionary *oauthParameters = [NSDictionary dictionaryWithObjects:oauthValues forKeys:oauthKeys];
-    
-    NSArray *layerKeys = [NSArray arrayWithObject:@"radius"]; 
-    
-    NSArray *layerValues = [NSArray arrayWithObject:@"1900000"]; 
-    
-    NSDictionary *layerFilters = [NSDictionary dictionaryWithObjects:layerValues forKeys:layerKeys];                                                                                                                                                                            
-    
-    // LPAugmentedRealityViewController *augmentedRealityViewController = [[[ LPAugmentedRealityViewController alloc] init] autorelease];
-    
-    // NOTE: here we removed "autorelease" because we are using ARC to release resources. If ARC is not enabled in Build settings, you need to use the line above and manage the resource yourself.  
-    
-    LPAugmentedRealityViewController *augmentedRealityViewController = [[ LPAugmentedRealityViewController alloc] init];
-    augmentedRealityViewController.delegate = nil; 
-    augmentedRealityViewController.showGrid = YES; 
-    
-    [self presentModalViewController:augmentedRealityViewController animated:YES]; 
-    
-    [augmentedRealityViewController loadLayerWithName:layerName 
-                                      oauthParameters:oauthParameters 
-                                           parameters:layerFilters 
-                                              options:LPAllViewsEnabled];
-}
-
-///////Realidad aumentada///////
-
 
 
 - (void)viewDidLoad
